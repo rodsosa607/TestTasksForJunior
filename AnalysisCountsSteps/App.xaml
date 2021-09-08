@@ -1,0 +1,22 @@
+﻿<Application x:Class="AnalysisCountsSteps.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:AnalysisCountsSteps"
+             xmlns:super="clr-namespace:AnalysisCountsSteps"
+             StartupUri="MainWindow.xaml">
+    
+    <Application.Resources>
+
+        <!--<super:WorstColorConverter x:Key="WorstColorConverter"/>-->
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/RoundedButtonStyle.xaml"/>
+                <ResourceDictionary Source="Theme/RoundedButtonStyle2.xaml"/>
+                <ResourceDictionary Source="Theme/RoundedTextBox.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+        
+    </Application.Resources>
+    
+</Application>
